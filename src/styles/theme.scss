@@ -1,0 +1,63 @@
+:root {
+    // Define the CSS variables
+    --ac: #1d1d1d;
+    --ac-alt: #ffffff;
+    --fg: #1d1d1d;
+    --bg: #ffffff;
+    --body-bg: #F6F6F8;
+    --border-color: #D9D9D9;
+    --side-panel-bg: #1d1d1d;
+    --side-panel-fg: #ffffff;
+    --side-panel-border-color: #363636;
+    --notification-bg: #DE4949;
+    --notification-fg: #fff;
+    --link-fg: #1C89EE;
+    --drop-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    --container-br: 10px;
+    --button-br: 5px;
+    --full-br: 1000px;
+    --header-font: 'Mona Sans', sans-serif;
+    --body-font: 'Ubuntu Mono', monospace;
+    --header-weight: 600;
+    --header-stretch: ultra-expanded;
+}
+
+
+.dark {
+    // Define the CSS variables
+    --ac: #ffffff;
+    --ac-alt: #1d1d1d;
+    --fg: #ffffff;
+    --bg: #1d1d1d;
+    --body-bg: #2D2D2D;
+    --border-color: #363636;
+    --side-panel-border-color: #363636;
+    --side-panel-bg: #1d1d1d;
+    --side-panel-fg: #ffffff;
+    --notification-bg: #DE4949;
+    --notification-fg: #fff;
+    --drop-shadow: rgb(0 0 0 / 38%) 0px 8px 24px;
+    --container-br: 10px;
+    --button-br: 5px;
+    --full-br: 1000px;
+    --header-font: 'Mona Sans', sans-serif;
+    --body-font: 'Ubuntu Mono', monospace;
+    --header-weight: 600;
+    --header-stretch: ultra-expanded;
+}
+
+
+@font-face {
+    font-family: 'Mona Sans';
+    src: url('/fonts/MonaSansVF.woff2') format('woff2-variations'),
+        url('/fonts/MonaSansVF.woff2') format('woff2');
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Ubuntu Mono";
+    src: url("/fonts/UbuntuMono-Regular.ttf") format("truetype");
+    font-weight: 100 900;
+    font-display: swap;
+}
