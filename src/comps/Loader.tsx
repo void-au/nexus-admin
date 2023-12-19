@@ -9,7 +9,7 @@ export const Loader = (props: Props) => {
 
     return (
         <div className="loader">
-            <SyncLoader />
+            <SyncLoader size={10} />
         </div>
     );
 }
