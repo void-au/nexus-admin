@@ -6,7 +6,6 @@ export interface MenuItem {
     onClick: () => void;
 }
 
-
 export interface Props {
     menu_items: MenuItem[];
     hoverable?: boolean;
